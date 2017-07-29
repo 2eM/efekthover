@@ -36,7 +36,17 @@
 #box3:hover{
     height:300px;
     width:300px;
-   
+      
+}
 
+#box2circle{
+    background-color: yellow ;
+    border-radius: 0 ;
     
+    transition: background-color 2s linear, border-radius 2s linear ;
+}
+
+#box2circle:hover{
+    background-color: violet;
+    border-radius: 50% ;
 }
